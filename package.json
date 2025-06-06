@@ -1,0 +1,22 @@
+{
+  "name": "yarn",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "author": "Tran Xuan Binh <binida2k1@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "lodash": "^4.17.18"
+  },
+  "devDependencies": {
+    "eslint": "^9.28.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@4.9.2"
+}

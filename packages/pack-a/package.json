@@ -1,0 +1,14 @@
+{
+  "name": "pack-a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "prettier": "^3.5.3",
+    "react": "^19.1.0"
+  },
+  "packageManager": "yarn@4.9.2"
+}
